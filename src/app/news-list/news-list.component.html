@@ -1,0 +1,17 @@
+<ul class="collection">
+  <li *ngFor="let item of news">
+    <a href="{{item.url}}" target="_blank" class="section collection-item">
+      <span class="points">[{{item.points}}]</span>
+      <span class="text-data">
+        <span class="title-text">
+          {{item.title}}
+          <small style="color:gray;">({{item.domain}})</small>
+        </span>
+        <br/>
+        <span class="metadata">
+          submitted by {{item.user}} {{item.time_ago}}
+        </span>
+      </span>
+    </a>
+  </li>
+</ul>
