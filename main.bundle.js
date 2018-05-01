@@ -137,7 +137,7 @@ var GetnewsService = /** @class */ (function () {
     //newsUrl = "assets/test_news.json"
     function GetnewsService(http) {
         this.http = http;
-        this.newsUrl = "http://node-hnapi.herokuapp.com/news";
+        this.newsUrl = "https://node-hnapi.herokuapp.com/news";
     }
     GetnewsService.prototype.getNews = function () {
         return this.http.get(this.newsUrl)
