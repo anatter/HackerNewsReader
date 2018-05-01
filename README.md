@@ -1,5 +1,10 @@
 # HackerNewsReader
 
+Simple reader for [Hacker News](https://news.ycombinator.com/). Displays one page of news and links to the corresponding websites. Purpose of this project was to learn the basics of Angular.
+
+
+## Angular
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
 ## Development server
